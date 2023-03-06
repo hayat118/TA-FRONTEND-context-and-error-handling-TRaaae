@@ -150,12 +150,7 @@ body {
 }
 @media screen and (max-width: 991px) {
   .page-content {
-    min-width: 100vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .header-logo {
-    display: none;
+    /* min-width: 100vw; */
   }
 }
 
@@ -274,4 +269,33 @@ input.search {
   margin-left: 1rem;
   width: 20rem;
   margin: 0 auto;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 767px) {
+  .header-logo {
+    display: none;
+  }
+  .people {
+    display: block;
+  }
+  .card {
+    margin-bottom: 1rem;
+    width: 75%;
+    padding: 1rem;
+  }
+  .sidebar {
+    width: 35%;
+  }
+  .articles a h3 {
+    width: 75%;
+  }
+  input.search {
+    width: 70%;
+  }
 }
