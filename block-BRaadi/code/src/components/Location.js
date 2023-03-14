@@ -59,7 +59,7 @@ const LocationCard = (props) => {
     <div>
       <hr />
       <p>
-        <b>Name:</b> {props.name.toUpperCase()}
+        <b>Name:</b> {props.name}
       </p>
       <p>
         <b>Zone:</b> {props.zone}
